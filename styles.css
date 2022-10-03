@@ -40,7 +40,7 @@ body {
     transition: .5s ease-out;
 }
 
-.wrapper:hover .mountain {
+.wrapper.active .mountain {
     clip-path: polygon(15% 85%, 30% 60%, 41% 74%, 61% 40%, 85% 85%);
     background-color: blueviolet;
 }
